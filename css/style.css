@@ -1,124 +1,228 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
+}
 
-    body{
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-        margin: 0;
-        padding: 0;
-        height: 100vh;
-    }
-    h1{
-        font-size: 35px;
-        color: black;
-        margin: 20px;
-    }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    height: 100vh;
+}
 
-    .navbar{
-        text-align: end;
-        padding: 20px;
-        justify-items: center;
-        margin: 30px;
-        
-        
-    }
+h1 {
+    font-size: 35px;
+    color: black;
+    margin: 20px;
+}
 
-    img{
-        width: 100%;
-        height: 500px;
-    }
-
-    p{
-        font-size: 30px;
-        text-align: center;
-        padding: 20px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-
-    a{
-        text-decoration: none;
-        color: black;
-        cursor: pointer;
-        margin-right: 40px;
-        text-align: end;
-        border-right: solid gray;
-        font-size: 20px;
-    }
-
-    a:hover {
-        color: grey;
-        text-decoration: underline;
-    }
-
-    .ia-card{
-  display: flex;
-  text-align: center;
-  align-items: center;
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
-  margin: 30px;
-    }
-
-    .ia-card img{
-        width: 100%;
-    }
-
-    .cienciadatos-card{
-        display: flex;
-        text-align: center;
-        align-items: center;
-        background: white;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
-        margin: 30px;
-    }
-
-    .cienciadatos-card img{
-        width: 100%;
-    }
-
-    .software-card{
-        display: flex;
-        text-align: center;
-        align-items: center;
-        background: white;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
-        margin: 30px;
-    }
-    .software-card img{
-        width: 100%;
-    }
-
-    .mision-card{
-        text-align: center;
-        width: 50%;
-        align-items: center;
-        background: white;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
-        margin: 30px;
-    }
-
-   .mision-card img{
-    width: 50%;
-   }
-
-   .vision-card{
+p {
+    font-size: 30px;
     text-align: center;
-    width: 50%;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-right: 40px;
+    border-right: solid gray;
+    font-size: 20px;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+
+
+.navbar {
+    text-align: end;
+    padding: 20px;
+    margin: 30px;
+}
+
+
+img {
+    width: 100%;
+    height: 40%;
+}
+
+
+
+.ia-card,
+.cienciadatos-card,
+.software-card {
+    display: flex;
     align-items: center;
     background: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
     margin: 30px;
-   }
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.ia-card img,
+.cienciadatos-card img,
+.software-card img {
+    max-width: 100%;
+    flex: 1;
+}
+
+.ia-card p,
+.cienciadatos-card p,
+.software-card p {
+    text-align: justify;
+}
+
+
+.mision-card,
+.vision-card {
+    text-align: center¡¡;
+    width: 50%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    margin: 30px auto;
+}
+
+.mision-card img,
+.vision-card img {
+    width: 50%;
+}
+.mision-card p,
+.vision-card p {
+    text-align: justify;
+}
+
+
+.contacto-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 40px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 30px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    flex-wrap: wrap;
+}
+
+.mapa {
+    flex: 1;
+}
+
+.mapa img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 450px;
+}
+
+.info-contacto {
+    flex: 1;
+    max-width: 350px;
+}
+
+.info-contacto h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.info-contacto p {
+    font-size: 16px;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    color: #111;
+    font-family: Arial, sans-serif;
+}
+
+.info-contacto img {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+
+.barra-footer {
+    height: 10px;
+    background: linear-gradient(to right, #5a9dfc, #0047ff);
+    margin: 40px;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        text-align: center;
+        margin: 20px;
+    }
+
+    a {
+        display: inline-block;
+        margin: 10px 10px;
+        border: none;
+        font-size: 18px;
+    }
+
+    .contacto-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .mapa img {
+        max-width: 100%;
+    }
+
+    .info-contacto {
+        width: 100%;
+        text-align: center;
+    }
+
+    .info-contacto p {
+        justify-content: center;
+    }
+
+    .mision-card,
+    .vision-card {
+        width: 90%;
+    }
+
+    .mision-card img,
+    .vision-card img {
+        width: 80%;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+
+    .info-contacto h2 {
+        font-size: 18px;
+    }
+
+    .info-contacto p {
+        font-size: 14px;
+    }
+}
+

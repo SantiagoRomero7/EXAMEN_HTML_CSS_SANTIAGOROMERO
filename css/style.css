@@ -96,3 +96,29 @@
     .software-card img{
         width: 100%;
     }
+
+    .mision-card{
+        text-align: center;
+        width: 50%;
+        align-items: center;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+        margin: 30px;
+    }
+
+   .mision-card img{
+    width: 50%;
+   }
+
+   .vision-card{
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    margin: 30px;
+   }

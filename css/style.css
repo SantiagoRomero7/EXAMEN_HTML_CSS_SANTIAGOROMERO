@@ -28,7 +28,7 @@
 
     img{
         width: 100%;
-        height: 450px;
+        height: 500px;
     }
 
     p{
@@ -51,4 +51,48 @@
     a:hover {
         color: grey;
         text-decoration: underline;
+    }
+
+    .ia-card{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+  margin: 30px;
+    }
+
+    .ia-card img{
+        width: 100%;
+    }
+
+    .cienciadatos-card{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+        margin: 30px;
+    }
+
+    .cienciadatos-card img{
+        width: 100%;
+    }
+
+    .software-card{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+        margin: 30px;
+    }
+    .software-card img{
+        width: 100%;
     }

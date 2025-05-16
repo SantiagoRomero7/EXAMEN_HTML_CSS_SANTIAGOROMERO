@@ -55,4 +55,4 @@ Editar
 Este proyecto fue desarrollado por **Santiago Romero** como parte de la evaluación final del curso.
 
 GITHUB: https://github.com/SantiagoRomero7
-GITHUB PAGES: 
+GITHUB PAGES: https://santiagoromero7.github.io/EXAMEN_HTML_CSS_SANTIAGOROMERO/
